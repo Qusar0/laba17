@@ -1,32 +1,61 @@
-nav a.active {
-    font-weight: bold;
-    color: #f00;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
 }
 
 nav ul {
-    display: flex;
-    gap: 20px;
     list-style: none;
     padding: 0;
 }
 
-@media (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-        gap: 10px;
-    }
-    
-    .contact-page .form-group {
-        width: 100%;
-    }
+nav ul li {
+    display: inline;
+    margin-right: 20px;
 }
 
-@media (max-width: 480px) {
-    body {
-        padding: 10px;
-    }
-    
-    h1 {
-        font-size: 1.5rem;
-    }
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.tabs button {
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.tabs button:hover {
+    background-color: #ddd;
+}
+
+button {
+    margin-top: 10px;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.saved-facts ul {
+    list-style: none;
+    padding: 0;
+}
+
+.saved-facts li {
+    margin: 10px 0;
 }
