@@ -6,7 +6,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $content = trim($_POST['content'] ?? '');
     $error = null;
 
-    // Валидация данных
     if (empty($title)) {
         $error = "Заголовок не может быть пустым";
     } elseif (empty($content)) {
