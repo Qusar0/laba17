@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
+    <link type="image/x-icon" href="/assets/images/favicon.ico" rel="shortcut icon">
+</head>
+<body>
+    
+<header>
+    <nav>
+        <ul>
+                            <li>
+                    <a href="/index.php" >
+                        Главная                    </a>
+                </li>
+                            <li>
+                    <a href="/pages/about.php" >
+                        О нас                    </a>
+                </li>
+                            <li>
+                    <a href="/pages/contact.php" >
+                        Контакты                    </a>
+                </li>
+                            <li>
+                    <a href="/pages/add_article.php" >
+                        Статьи                    </a>
+                </li>
+                    </ul>
+    </nav>
+</header>
+    <main>
+        <h1>Добро пожаловать!</h1>
+    </main>
+    <footer>
+    <p>&copy; 2025 Мой сайт</p>
+</footer></body>
+</html>
